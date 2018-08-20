@@ -12,19 +12,20 @@
   <body>
 
 
-    <nav class="navbar navbar-expand-md navbar-default">
+    <nav class="navbar navbar-default">
       <a class="navbar-brand" href="#">Kassey's blog</a>
 
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-       
+        <ul class="nav navbar-nav">
+       <li>
         <%= link_to "Home", home_path%>
-
+      </li>
         </ul>
-          <ul class="navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
+          <li>
         <%= link_to "Create Post", new_post_path%>
-       
+       </li>
         </ul>
      
       </div>
