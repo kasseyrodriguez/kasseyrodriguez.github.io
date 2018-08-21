@@ -6,7 +6,7 @@ A simple CRUD for Ruby on Rails
 
 # To Run
 
-rails db:migrate
+rails db:migrate  
 rails s
 
 # Examples
