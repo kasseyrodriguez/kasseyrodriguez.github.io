@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Its a Blog Project  
 
-Things you may want to cover:
+A simple CRUD for Ruby on Rails
 
-* Ruby version
+# To Run
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails db:migrate
+rails s
