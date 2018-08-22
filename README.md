@@ -4,14 +4,25 @@
 
 Its a Blog Project  
 
-A simple CRUD for Ruby on Rails
+A simple CRUD for Ruby on Rails  
 
-# To Run
+
+## To Change Authentication before running 
+
+#### In File: "comments_controller.rb" under "controllers" folder
+
+http_basic_authenticate_with name: "YOURNAME", password: "YOURPASSWORD", only: [:destroy]
+
+#### In File: "posts_controller.rb" under "controllers" folder
+
+http_basic_authenticate_with name: "YOURNAME", password: "YOURPASSWORD", except: [:index, :show]
+
+## To Run
 
 rails db:migrate  
 rails s
 
-# Examples
+## Examples
 
 ### Index page
 
