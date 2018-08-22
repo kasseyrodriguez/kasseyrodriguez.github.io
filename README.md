@@ -4,7 +4,7 @@
 
 Its a Blog Project  
 
-A simple CRUD for Ruby on Rails  
+A simple CRUD in Ruby on Rails  
 
 
 ## To Change Authentication before running 
