@@ -1,7 +1,7 @@
-<h2>Comments</h2>
+<h2 class="comment-title">Comments</h2>
 <% @post.comments.each do |comment|%>
     <div class="well">
-        <p><strong><%= comment.username%> </strong>: <%= comment.body%>
+        <p class="comment-p"><strong><%= comment.username%> </strong>: <%= comment.body%>
            <%= link_to '[X]', [comment.post, comment],
                     method: :delete,
                     data: {confirm: 'Are you sure?'}

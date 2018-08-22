@@ -1,0 +1,59 @@
+body, html {
+    background-image: linear-gradient(#3E000C, #A5243D,  #C14953);
+    margin: 0;
+    height: 100%;
+}
+h1 {
+    color: #C14953;
+}
+
+.navbar-default .navbar-brand {
+    color:#3E000C;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #3E000C;
+}
+
+.title {
+    color: #3E000C;
+
+}
+
+.body {
+    color: #A5243D;
+}
+
+h2 {
+    color: #C14953;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+p{ 
+    color: white;
+    font-size: 1.5em;
+}
+
+.btn-primary {
+    background-color:  #C14953;
+    border-color:   #C14953;
+}
+
+.comment-p{
+    color: #3E000C;
+}
+
+.container {
+    padding: 1.5em;
+}
+
+.comment-title {
+    margin-top: 3em;
+}
+
+.add-comment-title {
+    margin-top: 3em;
+
+}

@@ -1,9 +1,9 @@
-<h1>My Blog Posts<h1>
+<h1><strong>MY Blog Posts</strong><h1>
 
 <% @posts.each do |post| %>
 <div class="well">
-<h1><%=post.title %></h1>
-<h3><%= post.body%></h3>
+<h1 class="title"><%=post.title %></h1>
+<h3 class ="body"><%= post.body%></h3>
 <%= link_to "Read more", post_path(post), :class => 'btn btn-default'%>
 </div>
 <% end %>
