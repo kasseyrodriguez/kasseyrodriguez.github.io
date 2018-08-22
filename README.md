@@ -21,7 +21,10 @@ rails s
 
 ![show-of-individual-post-with-comments](https://user-images.githubusercontent.com/38043621/44436568-ecfb6f80-a583-11e8-9fb4-3d1c445c20d5.png)
 
-### To create Blog
+### To Create Blog
 
 ![create-blog](https://user-images.githubusercontent.com/38043621/44436489-75c5db80-a583-11e8-9fab-e0326c48fbf1.png)
 
+### Edit Post Page
+
+![edit-post](https://user-images.githubusercontent.com/38043621/44436606-2cc25700-a584-11e8-90b7-baaf81d18c30.png)
